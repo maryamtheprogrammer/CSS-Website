@@ -1,0 +1,288 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#head-content {
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 50px;
+    margin-right: 40em; 
+}
+
+.logo img {
+    height: 100px;
+    width: 110px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+.navbar ul li:last-child {
+    margin-right: 0; 
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-section{
+    position: relative;
+}
+
+.hero-section > img{
+    width: 100%;
+    height: 50vh;
+    display: block;
+}
+
+.hero-section::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50vh;
+    width: 100%;
+    background-color: aquamarine;
+    opacity: 0.5;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    z-index: 1;
+}
+
+.content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.learn-more-btn {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #fff; 
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+#cards{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 1.5em;
+    justify-content: space-evenly;
+}
+
+.product-head{
+    text-align: center;
+}
+
+.card1{
+    max-width: 20%;
+}
+.card2{
+    max-width: 20%;
+}
+.card3{
+    max-width: 20%;
+}
+
+.card1 > img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.card2 > img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+   
+}
+.card3 > img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#about-sec {
+    background-color: rgb(199, 199, 199);
+    display: flex;
+    margin-top: 50px; 
+}
+
+#about-sec img {
+    height: 250px;
+    margin-left: auto; 
+    margin-top: 50px;
+    margin-right: 60px;
+    margin-bottom: 50px; 
+}
+
+.about-text {
+    margin: 50px;
+    margin-left: 80px;
+    margin-top: 70px; 
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text h2,
+.about-text p {
+    max-width: 70%; 
+    margin-left: 0; 
+}
+
+#slider {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.icons {
+    margin: 60px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.icons > i:first-child{
+    margin-left: -5px;
+}
+
+.testimonial-content {
+    margin-left: 100px;
+    align-items: center;
+    float: right;
+    width: 80%;
+}
+
+.testimonial-content > img {
+    margin-right: 20px;
+    margin-left: 50px;
+    height: 80px;
+    width: 90px;
+    border-radius: 50%;
+    float: left;
+}
+
+.testimonial-content > h3,
+.testimonial-content > p {
+    flex: 1; 
+    margin-bottom: 10px;
+}
+
+#email {
+    background-color: rgb(9, 153, 35);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-email {
+    text-align: center;
+}
+
+.input-email > input {
+    background-color: rgb(9, 153, 35);
+    border: 2px solid white;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    outline: none; 
+    color: white; 
+}
+
+.input-email > input::placeholder {
+    color: white; 
+    font-size: 17px;
+}
+
+.sub-btn {
+    background-color:white;
+    color: rgb(9, 153, 35);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+#footer table {
+    width: 50%;
+    margin-left: 300px;
+}
+
+#footer table th {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+#footer table a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer table td {
+    padding: 5px 0;
+}
+
+#footer table .icons-table i {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
